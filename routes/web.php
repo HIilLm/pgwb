@@ -48,7 +48,7 @@ Route::resource('/dashboard/siswa', SiswaController::class);
 Route::resource('/dashboard/project', ProjectController::class);
 Route::resource('/dashboard/contact', ContactController::class);
 Route::resource('/dashboard/jeniskontak', JeniskontakController::class);
-Route::resource('/dashboard', DashboardController::class,);
+// Route::resource('/dashboard', DashboardController::class,);
 
 Route::get('dashboard/project/{id}/lihat',[ProjectController::class,'lihat'])->name('project.lihat');
 Route::get('dashboard/project/{id}/buat',[ProjectController::class,'buat'])->name('buat.page');
