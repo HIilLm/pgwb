@@ -50,7 +50,7 @@ class DashboardController extends Controller
      */
     public function show(User $user)
     {
-        return abort(404,'not found');
+        //
     }
 
     /**
